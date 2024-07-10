@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dunia Teknik Nusantara</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Style -->
+    <style>
+      .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      .card {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px #888888;
+        overflow: hidden;
+      }
+      .card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+      }
+      .card .content {
+        padding: 10px;
+      }
+      .card .title {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+      .card .description {
+        font-size: 0.9em;
+        color: #666;
+      }
+      </style>
+      <!-- SimpleLightbox plugin CSS-->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+  </head>
+  <body>
+
+    <!--Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"><span>Dunia Teknik Nusantara</span></a>
+      <div class="navbar-nav">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">Tentang Kami</a>
+        <a href="index.html#manfaat">Manfaat</a>
+        <a href="index.html#products">Produk</a>
+        <a href="index.html#portofolio">Projek</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="index.html#products" id="search-button"><i data-feather="search"></i></a>
+        <a href="index.html#products" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+
+      <!-- Search Form End -->
+    </nav>
+    <!--Navbar End -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Ayo pasang <span>Panel Surya</span></h1>
+        <a href="#products" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section end-->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-img" style="width: 100%; overflow: hidden;">
+          <img src="img/tengang-kami.jpg" alt="Tentang Kami" style="width: 100%; height: auto; display: block;" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih <span>produk</span> kami?</h3>
+          <p>Kami menyediakan panel surya berkualitas tinggi yang dirancang untuk memberikan performa maksimal dan keandalan jangka panjang. Setiap produk kami didukung oleh teknologi terkini dan bahan-bahan terbaik, sehingga tidak hanya efisien dalam menghasilkan listrik dari sinar matahari, tetapi juga ramah lingkungan dan hemat biaya. </p>
+          <p>Kami berkomitmen untuk membantu Anda beralih ke energi terbarukan dengan mudah, didukung oleh tim profesional yang siap memberikan layanan terbaik mulai dari konsultasi hingga instalasi. Dengan memilih produk kami, Anda tidak hanya berinvestasi untuk masa kini, tetapi juga untuk masa depan yang lebih bersih dan berkelanjutan.</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- About Section End -->
+
+    <!-- Manfaat Section Start -->
+    <section id="manfaat" class="about">
+    <h2><span>Manfaat</span> Kami</h2>
+<div class="container">
+  <div class="card">
+    <img src="manfaat 1.jpeg" alt="Week 1">
+    <div class="content"   text-align = "justify">
+      <h2 class="title">Mengurangi Tagihan Listrik</h2>
+      <p class="description" style="text-align: center;">Menghemat biaya listrik dengan mengubah sinar matahari menjadi listrik untuk rumah atau bangunan Anda.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="ramah lingkungan.jpg" alt="Week 2">
+    <div class="content">
+      <h2 class="title">Ramah Lingkungan</h2>
+      <p class="description" style="text-align: center;">Panel surya mengurangi polusi dan memperlambat pemanasan global.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="inves.jpg" alt="Week 3">
+    <div class="content">
+      <h2 class="title">Peningkatan Nilai Properti</h2>
+      <p class="description" style="text-align: center;">Memasang panel surya meningkatkan nilai jual properti, menarik pembeli yang peduli lingkungan dan suatu investasi jangka panjang.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+  </section>
+    <!-- Manfaat Section End -->
+
+
+
+
+    <!-- Products Section Start -->
+    <section class="products" id="products">
+      <h2><span>Produk </span> Kami</h2>
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons" id="produk1">
+            <a href="produk-detail1.html" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/solarpanel.jpeg" alt="product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Solar Cell</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons" id="produk2">
+            <a href="produk-detail2.html" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/Battery or aki.jpeg" alt="product 2" />
+          </div>
+          <div class="product-content">
+            <h3>Battery</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons" id="produk3">
+            <a href="produk-detail3.html" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/Inverter.jpeg" alt="product 3" />
+          </div>
+          <div class="product-content">
+            <h3>Inverter</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons" id="produk4">
+            <a href="produk-detail4.html" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/MCB Box.jpeg" alt="product 4" />
+          </div>
+          <div class="product-content">
+            <h3>MCB Box</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons" id="produk5">
+            <a href="produk-detail5.html" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/MPPT SCC.jpeg" alt="product 5" />
+          </div>
+          <div class="product-content">
+            <h3>MPPT Solar Charge Controller</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons" id="produk6">
+            <a href="produk-detail6.html" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/SCC 60A.jpeg" alt="product 6" />
+          </div>
+          <div class="product-content">
+            <h3>Solar Charge Controller (60A Brand Samoto)</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons" id="produk7">
+            <a href="produk-detail7.html" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/SCC USB.jpeg" alt="product 7" />
+          </div>
+          <div class="product-content">
+            <h3>Solar Charge Controller (60A)</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons" id="produk8">
+            <a href="produk-detail8.html" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/UPS.jpeg" alt="product 8" />
+          </div>
+          <div class="product-content">
+            <h3>UPS</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons" id="produk9">
+            <a href="produk-detail9.html" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/batterycharger.jpeg" alt="product 9" />
+          </div>
+          <div class="product-content">
+            <h3>Battery Charger</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons" id="produk10">
+            <a href="produk-detail10.html" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/20A.jpeg" alt="product 10" />
+          </div>
+          <div class="product-content">
+            <h3>Solar Charge Controller (20A)</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons" id="produk11">
+            <a href="produk-detail11.html" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/30A.jpeg" alt="product 11" />
+          </div>
+          <div class="product-content">
+            <h3>Solar Charge Controller (30A)</h3>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons" id="produk12">
+            <a href="produk-detail12.html" class="item-detail-button"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/40A.jpeg" alt="product 12" />
+          </div>
+          <div class="product-content">
+            <h3>Solar Charge Controller (40A)</h3>
+          </div>
+        </div>
+      </section>
+            <!-- Products Section End -->
+
+            <section id="portofolio" class="contact">
+              <h2><span>Project </span> Kami</h2>
+              <p>Inilah beberapa projek-projek yang pernah kami kerjakan</p>
+            <div id="portfolio">
+              <div class="container-fluid p-0">
+                  <div class="row g-0">
+                      <div class="col-lg-4 col-sm-6">
+                          <a class="portfolio-box" href="img/products/projek 1.jpeg" title="Project 1">
+                              <img class="img-fluid" src="img/products/projek 1.jpeg" alt="Project 1" />
+                              <div class="portfolio-box-caption">
+                                  <div class="project-name">Project 1</div>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-6">
+                          <a class="portfolio-box" href="img/products/projek 2.jpeg" title="Project 2">
+                              <img class="img-fluid" src="img/products/projek 2.jpeg" alt="Project 2" />
+                              <div class="portfolio-box-caption">
+                                  <div class="project-name">Project 2</div>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-6">
+                          <a class="portfolio-box" href="img/products/projek 3.jpg" title="Project 3">
+                              <img class="img-fluid" src="img/products/projek 3.jpg" alt="Project 3" />
+                              <div class="portfolio-box-caption">
+                                  <div class="project-name"><p>Project 3</p></div>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-6">
+                          <a class="portfolio-box" href="img/products/projek 4.jpeg" title="Project 4">
+                              <img class="img-fluid" src="img/products/projek 4.jpeg" alt="Project 4" />
+                              <div class="portfolio-box-caption">
+                                  <div class="project-name">Project 4</div>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-6">
+                          <a class="portfolio-box" href="img/products/projek 5.jpeg" title="Project 5">
+                              <img class="img-fluid" src="img/products/projek 5.jpeg" alt="Project 5" />
+                              <div class="portfolio-box-caption">
+                                  <div class="project-name">Project 5</div>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="img/products/projek 6.jpeg" title="Project 6">
+                            <img class="img-fluid" src="img/products/projek 6.jpeg" alt="Project 6" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Project 6</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                      <a class="portfolio-box" href="img/products/projek 7.jpeg" title="Project 7">
+                          <img class="img-fluid" src="img/products/projek 7.jpeg" alt="Project 7" />
+                          <div class="portfolio-box-caption">
+                              <div class="project-name">Project 7</div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="img/projek 8.jpg" title="Project 8">
+                        <img class="img-fluid" src="img/projek 8.jpg" alt="Projek 8" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-name">Project 8</div>
+                        </div>
+                    </a>
+                </div>
+                      <div class="col-lg-4 col-sm-6">
+                          <a class="portfolio-box" href="img/products/projek 9.jpeg" title="Project 9">
+                              <img class="img-fluid" src="img/products/projek 9.jpeg" alt="Project 9" />
+                              <div class="portfolio-box-caption p-3">
+                                  <div class="project-name">Project 9</div>
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+    
+        </section>
+
+
+    <!-- Contacts Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Contact</span> Kami</h2>
+      <p>Hubungi konsultan kami untuk info lebih lanjut</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.81723946072!2d109.34447007424278!3d-0.0421745355301879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d59b0e768aabd%3A0x77d84bbf1257a834!2sJl.%20Budi%20Karya%20No.24%2C%20Benua%20Melayu%20Darat%2C%20Kec.%20Pontianak%20Sel.%2C%20Kota%20Pontianak%2C%20Kalimantan%20Barat%2078122!5e0!3m2!1sid!2sid!4v1719314921777!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form>
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" id="nama" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" id="email" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="tel" id="no_hp" placeholder="Nomor HP" />
+          </div>
+          <button type="button" class="btn" onclick="openWhatsApp()">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <script>
+      function openWhatsApp() {
+  var nama = document.getElementById('nama').value;
+  var email = document.getElementById('email').value;
+  var no_hp = document.getElementById('no_hp').value;
+  var message = `Halo, saya ${nama} dengan email ${email} dan no hp ${no_hp}.`;
+
+  // Set the default message to send
+  var defaultMessage = `Halo, Saya ingin tahu lebih banyak tentang panel surya yang anda tawarkan.`;
+
+  var encodedMessage = encodeURIComponent(defaultMessage);
+  var whatsappUrl = `https://api.whatsapp.com/send?phone=6281347698825&text=${encodedMessage}&autofocus=true`;
+  window.open(whatsappUrl, '_blank');
+
+  // Clear the input fields
+  document.getElementById('nama').value = '';
+  document.getElementById('email').value = '';
+  document.getElementById('no_hp').value = '';
+}
+    </script>
+    <!-- Contacts Section End -->
+
+    <!-- Footer Section Start -->
+    <footer>
+     
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#manfaat">Manfaat</a>
+        <a href="#products">Produk</a>
+        <a href="#projek">Projek</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="https://www.instagram.com/icon_group_bd?igsh=MTc0eWlwYWhhN3I5bw==">iCON Group</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Modal Box Item Detail Start -->
+
+    <!-- Modal Box Item Detail End -->
+
+    <!-- Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javasript -->
+    <script src="js/script.js"></script>
+    <script src="js/scripts.js"></script>
+ <!-- Bootstrap core JS-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+ <!-- SimpleLightbox plugin JS-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+ <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+  </body>
+</html>
